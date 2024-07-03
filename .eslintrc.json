@@ -13,6 +13,14 @@
       "indent": ["error", 2],
       "linebreak-style": ["error", "unix"],
       "quotes": ["error", "single"],
-      "semi": ["error", "always"]
+      "semi": ["error", "always"],
+      "overrides": [
+        {
+          "files": ["tests/**/*"],
+          "env": {
+            "jest": true
+          }
+        }
+      ]
     }
   }
